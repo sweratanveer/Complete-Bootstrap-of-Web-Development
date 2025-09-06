@@ -4,11 +4,78 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Small Structure</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <style>
+    .container{
+    border:4px solid black;
+}
+.col-13{
+    background-color: rgb(240, 236, 231);
+    text-align: left;
+}
+.col-48{ 
+    font-size: 75px; 
+    background-color: rgb(231, 156, 58); 
+}
+.col-9{
+    background-color: aliceblue;
+}
+.col-3{
+    background-color: rgb(7, 180, 243);
+}
+.col-12{
+    background-color: pink;
+    text-align: right;
+}
+
+  </style>
 </head>
+
 <body>
-    
+    <div class="container">
+
+        <div class="row">
+            <div class="col col-48">Website Name</div>
+
+        </div>
+
+        <div class="row">
+            <div class=" col col-13">Home | About Us | Gallery | Contact Us </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col col-9">
+                <h1>Sub Heading</h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas delectus iste
+                dignissimos
+                atque. Itaque laboriosam quia incidunt, neque, quasi, velit cum ipsa nisi doloribus reprehenderit
+                libero? Corporis quaerat minima quam?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores repudiandae quaerat
+                libero laudantium, possimus veritatis. Minus fugit laboriosam doloribus adipisci voluptatem fuga quas
+                laborum. Possimus quasi esse hic corrupti vitae!
+                <br><br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores repudiandae quaerat
+                libero laudantium, possimus veritatis. Minus fugit laboriosam doloribus adipisci voluptatem fuga quas
+                laborum. Possimus quasi esse hic corrupti vitae!
+            </div>
+            <div class="col col-3">
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Gallery</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class=" col col-12">Website name@copyright.</div>
+        </div>
+
+
+    </div>
 </body>
+
 </html>
